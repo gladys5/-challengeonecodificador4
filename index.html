@@ -5,10 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Encriptador</title>
 </head>
 
 <body>
+
+    <img class="logo" src="./img/logo.svg" alt="">
+
+    <textarea class="text" name="textarea cols=" rows="17" style="border: none"
+        onkeyup="show(this.value)">Ingrese el texto aqui</textarea>
+    <aside class="aside">
+        <img class="img" src="./img/imagen.svg" alt="">
+        <h3 class="msn">Ningún mensaje fue
+            <br> encontrado
+        </h3>
+        <p class="phragraph">Ingresa el texto que desees encriptar o
+            <br> desencriptar.
+        </p>
+        <textarea class="textareaView" name="textarea cols=" rows="17" style="border: none" id="view"
+            readonly>></textarea>
+        <button class="btn">Copiar</button>
+
+    </aside>
+    <section class="section">
+        <span><img src="./img/signo.svg" alt=""> Solo letras minúsculas y sin acentos</span>
+        <button class="blue">Encriptar</button>
+        <button class="white">Desentriptar</button>
+    </section>
+
+
+
+
     <script src="index.js"></script>
 </body>
 
