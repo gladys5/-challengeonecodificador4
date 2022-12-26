@@ -37,13 +37,13 @@ function encrypter() {
     .replaceAll("a", "ai")
     .replaceAll("u", "ufat")
 
-  if (phrase == "") {
-    alert("por favor ingrese una frase")
-  }
-
   phrase2 = phrase
-
-  return phrase2
+  if (phrase2 == "") {
+    alert("por favor ingrese una frase")
+    location.href = location.href
+  } else {
+    return phrase2
+  }
 }
 function desencrypter() {
   let text = document.querySelector(".text").value.toLowerCase()
