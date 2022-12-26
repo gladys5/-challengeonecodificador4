@@ -54,17 +54,17 @@ function desencrypter() {
     .replaceAll("ober", "o")
     .replaceAll("ai", "a")
     .replaceAll("ufat", "u")
-  if (phrase == "" || !phrase.includes("a", "e", "i", "o", "u")) {
-    alert("por favor ingrese una frase")
-  }
+
   phrase2 = phrase
+  console.log(phrase2)
+
   return phrase2
 }
 btnWhite.onclick = () => {
-  desencrypter()
+  show(desencrypter())
 }
 btn.addEventListener("click", function () {
-  textareaView.focus()
-  document.execCommand("selectAll")
-  document.execCommand("copy")
+  copytext = navigator.clipboard.writeText(textareaView.value).then(() => {
+    text = document.querySelector(".text").value = textareaView.value
+  })
 })
