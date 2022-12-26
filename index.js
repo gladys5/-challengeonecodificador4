@@ -16,6 +16,7 @@ buttonBlue.onclick = () => {
   textareaView.classList.toggle("btnActive")
   show(encrypter())
 }
+
 function show(text) {
   document.getElementById("view").innerHTML = text
 }
@@ -57,9 +58,13 @@ function desencrypter() {
 
   phrase2 = phrase
   console.log(phrase2)
+  buttonBlue.addEventListener("click", function () {
+    document.querySelector(".text").value = ""
+  })
 
   return phrase2
 }
+
 btnWhite.onclick = () => {
   show(desencrypter())
 }

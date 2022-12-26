@@ -6,7 +6,6 @@ body {
 }
 /* .logo {
   position: absolute;
-
   left: 40px;
   top: 40px;
 }
@@ -19,9 +18,7 @@ textarea {
   height: 944px;
   left: 1000px;
   top: 40px;
-
   background: #ffffff;
-
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   border-radius: 32px;
 }
@@ -36,7 +33,6 @@ textarea {
   height: 48px;
   left: 240px;
   top: 168px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -50,13 +46,11 @@ section {
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-
   position: absolute;
   width: 680px;
   height: 67px;
   left: 240px;
   top: 885px;
-
   width: 280px;
   height: 19px;
 }
@@ -66,28 +60,22 @@ span {
   right: 0%;
   top: 0%;
   bottom: 0%;
-
   width: 205px;
   height: 18px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 50%;
-
   color: #495057;
-
   opacity: 0.8;
   margin-top: -30px;
 }
-
 .blue {
   padding: 24px;
   gap: 8px;
   background: #0a3871;
   border-radius: 24px;
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -100,10 +88,8 @@ span {
   padding: 24px;
   gap: 8px;
   background: #d8dfe8;
-
   border: 1px solid #0a3871;
   border-radius: 24px;
-
   width: 280px;
   height: 19px;
   text-align: center;
@@ -112,7 +98,6 @@ span {
   order: 0;
   flex-grow: 1;
 }
-
 .msn {
   font-family: "Inter";
   font-style: normal;
@@ -120,7 +105,6 @@ span {
   font-size: 24px;
   line-height: 120%;
   text-align: center;
-
   color: #343a40;
   flex: none;
   order: 0;
@@ -133,11 +117,8 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
-
   text-align: center;
-
   color: #495057;
-
   flex: none;
   order: 1;
   align-self: stretch;
