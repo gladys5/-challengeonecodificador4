@@ -305,3 +305,18 @@ p {
   align-self: stretch;
   flex-grow: 0;
 }
+.ico {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 1000px;
+
+  text-align: center;
+  color: #495057;
+}
